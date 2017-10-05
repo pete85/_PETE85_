@@ -1,0 +1,72 @@
+20170630T034435: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T040429: www.pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T072906: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T082854: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T093206: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T095656: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T114922: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T120845: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T131239: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T145233: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170630T161754: www.pete85.com/mywork.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T053257: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T062300: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T132705: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T135917: www.pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T155150: www.pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T163931: pete85.com/index.php
+PHP Warning:  mysql_connect(): Unknown MySQL server host 'pete85com.ipagemysql.com' (0) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T164120: pete85.com/index.php
+PHP Warning:  mysql_connect(): Access denied for user 'pete85com1'@'10.20.12.23' (using password: YES) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T164210: pete85.com/index.php
+PHP Warning:  mysql_connect(): Access denied for user 'pete85com'@'10.20.12.23' (using password: YES) in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/connect.php on line 6
+
+20170701T164320: pete85.com/mywork.php
+PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/portfolio.php on line 6
+
+20170701T175024: pete85.com/mywork.php
+PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/include/portfolio.php on line 6
+
+20170707T030811: www.pete85.com/admin/index.php
+PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/admin/index.php on line 29
+
+20170707T233326: www.pete85.com/admin/index.php
+PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/admin/index.php on line 29
+
+20170714T225753: pete85.com/admin/index.php
+PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hermes/bosnacweb01/bosnacweb01av/b602/ipg.pete85com1/admin/index.php on line 29
+

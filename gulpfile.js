@@ -3,8 +3,8 @@ var gulp = require('gulp'),
 	compass = require('gulp-compass'),
 	plumber = require('gulp-plumber'),
 	autoprefixer = require('gulp-autoprefixer'),
-	php  = require('gulp-connect-php'),
 	browserSync = require('browser-sync').create(),
+	php  = require('gulp-connect-php'),
 	reload = browserSync.reload,
 	del = require('del'),
 	rename = require('gulp-rename');
@@ -104,7 +104,7 @@ gulp.task('build', ['build:copy', 'build:remove']);
 gulp.task('browser-sync',['php'], function() {
     browserSync.init({
         proxy: '127.0.0.1:8070',
-        port: 8080,
+        port: 8090,
         open: true,
         notify: false
     });
@@ -119,7 +119,7 @@ gulp.task('watch', function(){
 	gulp.watch("js/*.js", ['scripts']).on('change', browserSync.reload);
 	gulp.watch("js/sequence-slider/*.js", ['scripts']).on('change', browserSync.reload);
 	gulp.watch("sass/*.scss", ['compass']).on('change', browserSync.reload);
-	gulp.watch('*.html', ['html']).on('change', browserSync.reload);
+	// gulp.watch('*.html', ['html']).on('change', browserSync.reload);
 	gulp.watch('*.php', ['php']).on('change', browserSync.reload);
 	gulp.watch('include/*.php', ['php']).on('change', browserSync.reload);
 	gulp.watch('admin/*.php', ['php']).on('change', browserSync.reload);
