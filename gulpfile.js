@@ -104,7 +104,7 @@ gulp.task('build', ['build:copy', 'build:remove']);
 gulp.task('browser-sync',['php'], function() {
     browserSync.init({
         proxy: '127.0.0.1:8070',
-        port: 8090,
+        port: 8070,
         open: true,
         notify: true
     });
