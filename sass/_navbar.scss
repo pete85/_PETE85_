@@ -12,6 +12,10 @@
     font-weight: 700;
     color: $white;
     line-height: 54px;
+    img {
+      width: 130px;
+      max-width: 70%;
+    }
   }
 }
 
@@ -78,7 +82,7 @@
   }
   .nav a {
     padding: 0px 10px;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 54px;
     font-weight: 400;
     background: transparent;

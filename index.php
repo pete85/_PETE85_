@@ -44,8 +44,12 @@
 					</button>
 					
 					<!--======= NAME ========-->
-					<a class="navbar-brand tlt" data-in-effect="flipInY" href="#home">pete85</a>
-				
+					<!--<a class="navbar-brand tlt" data-in-effect="flipInY" href="#home">pete85</a>-->
+
+					<a class="navbar-brand" href="#home">
+					    <img src="images/pete85logo.png" alt="logoImage" id="imgLogo" />
+					</a>
+
 				</div>
 				
 				<div id="site-nav" class="navbar-collapse collapse">
