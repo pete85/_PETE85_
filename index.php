@@ -44,12 +44,8 @@
 					</button>
 					
 					<!--======= NAME ========-->
-					<!--<a class="navbar-brand tlt" data-in-effect="flipInY" href="#home">pete85</a>-->
-
-					<a class="navbar-brand" href="#home">
-					    <img src="images/pete85logo.png" alt="logoImage" id="imgLogo" />
-					</a>
-
+					<a class="navbar-brand tlt" data-in-effect="flipInY" href="#home">pete85</a>
+				
 				</div>
 				
 				<div id="site-nav" class="navbar-collapse collapse">
@@ -84,9 +80,9 @@
 			<div class="container text-center">
 
                 <div class="hello testElement">
-                    <h3 class="intro-1 tlt" data-in-effect="flipInY">Welcome</h3>
-                    <h3 class="intro-2 tlt" data-in-effect="flipInY">to my</h3>
-                    <h2 class="intro-3 tlt" data-in-effect="flipInY">PORTFOLIO</h2>
+                    <h1 class="intro-1 tlt" data-in-effect="flipInY">pete85</h1>
+                    <h2 class="intro-2 tlt" data-in-effect="flipInY">Welcome to my</h2>
+                    <h3 class="intro-3 tlt" data-in-effect="flipInY">PORTFOLIO</h3>
                     <br/>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>

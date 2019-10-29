@@ -14,7 +14,7 @@
 <script src="js/jquery.lettering.js"></script>
 <script src="js/jquery.textillate.js"></script>
 
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 
 
 <!-- SEQUENCE SLIDER -->

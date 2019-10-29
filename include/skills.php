@@ -7,25 +7,27 @@
 
 
                 <?php
-                  $sql = 'SELECT * FROM skills';
-                  $retval = mysql_query( $sql, $conn);
 
+                    $sql = 'SELECT * FROM skills';
+                    $result = $conn->query($sql);
 
-                  while($record = mysql_fetch_array($retval)) {
+                    if ($result->num_rows > 0) {
+                        while($record = $result->fetch_assoc()) {
+                          echo "
+                              <li>
+                                <div class='seq-model'>
+                                  <img data-seq src='data:image/png;base64," .base64_encode($record['image']) . "' alt='" . $record['name'] . "' />
+                                </div>
 
-                      echo "
-                          <li>
-                            <div class='seq-model'>
-                              <img data-seq src='data:image/png;base64," .base64_encode($record['image']) . "' alt='" . $record['name'] . "' />
-                            </div>
-
-                            <div class='seq-title'>
-                              <h2 data-seq>" . $record['name'] . "</h2>
-                              <p>" . $record['description'] . "</p>
-                            </div>
-                          </li>             
-                          ";
-                    }
+                                <div class='seq-title'>
+                                  <h2 data-seq>" . $record['name'] . "</h2>
+                                  <p>" . $record['description'] . "</p>
+                                </div>
+                              </li>
+                              ";
+                        }
+                        }
+                        $conn->close();
                 ?>
 
             </ul>
@@ -40,10 +42,10 @@
 
 
             <?php
-                $sql = 'SELECT * FROM skills where ID != 10';
-              $retval = mysql_query( $sql, $conn);
+                $sql = 'SELECT * FROM skills';
+              $retval = mysqli_query( $sql, $conn);
 
-                while($record = mysql_fetch_array($retval)) {
+                while($record = mysqli_fetch_array($retval)) {
 
                     echo "
                           <li><a href='#step" . $record['ID'] . "' rel='step" . $record['ID'] . "' title='Go to slide " . $record['ID'] . "'><img src='data:image/png;base64," .base64_encode($record['thumbnail']) . "' /></a></li>

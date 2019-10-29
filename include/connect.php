@@ -3,11 +3,10 @@
 	   $dbuser = 'pete85';
 	   $dbpass = 'Vectr@19CDti';
 	   
-	   $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-	   
-	   if(! $conn ) {
-	      die('Could not connect: ' . mysql_error());
-	   }
-		
-		mysql_select_db("pete85portfolio", $conn);
+	   $conn = new mysqli($dbhost, $dbuser, $dbpass, "pete85portfolio");
+
+	   if ($conn->connect_error) {
+           echo "Error: Unable to connect to MySQL.";
+           die("Connection failed: " . $conn->connect_error);
+       }
 ?>
