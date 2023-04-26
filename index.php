@@ -27,7 +27,7 @@
 	    </video>
 	
 		<!--=== PAGE PRELOADER ===-->
-		<div id="page-loader"><span class="page-loader-gif"></span></div>
+		<!--<div id="page-loader"><span class="page-loader-gif"></span></div>-->
 		
 	
 		<!-- ==============================================
