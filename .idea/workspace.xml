@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2833842-abba-4506-996c-b8e0f095b8ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="d2833842-abba-4506-996c-b8e0f095b8ec" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +109,10 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Projekty/_PETE85_",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -131,7 +134,7 @@
       <workItem from="1513948024283" duration="967000" />
       <workItem from="1514501105120" duration="597000" />
       <workItem from="1625336164030" duration="1352000" />
-      <workItem from="1682535114219" duration="321000" />
+      <workItem from="1682535114219" duration="1064000" />
     </task>
     <servers />
   </component>
